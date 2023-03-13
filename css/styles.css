@@ -45,10 +45,10 @@ h1 {
 .features-image {
   padding: 4.5rem 0 0;
   font-size: 4.5rem;
-  color: #ff4c68;
+  color: linear-gradient(90deg, rgba(255, 76, 104, 1) 50%, rgba(241, 110, 0, 1) 100%);
 }
 .features-image:hover {
-  color: red;
+  color: #f16e00;
 }
 h3 {
   padding: 1.25rem 0 0;
