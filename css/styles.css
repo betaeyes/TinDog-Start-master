@@ -24,9 +24,6 @@ body {
   font-weight: 400;
   font-size: 1.25rem;
 }
-.navbar-toggler-icon {
-  color: #fff;
-}
 /* Title */
 h1 {
   font-weight: 900;
@@ -41,22 +38,36 @@ h1 {
   transform: rotate(25deg);
 }
 /* Features */
-
+#features {
+  padding: 7% 15%;
+}
 .features-image {
-  padding: 4.5rem 0 0;
   font-size: 4.5rem;
   background: linear-gradient(90deg, #f16e00 50%, #ff4c68 100%);
-
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .features-image:hover {
   background: linear-gradient(90deg, #ff4c68 50%, #f16e00 100%);
-
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 h3 {
   padding: 1.25rem 0 0;
   font-weight: 900;
+}
+p {
+  color: #8f8f8f;
+}
+/* Testimonials */
+#testimonials {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+  color: white;
+}
+h2 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
 }
