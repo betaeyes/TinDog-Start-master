@@ -1,12 +1,8 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
-#title {
-  background-color: #ff4c68;
-  color: white;
-}
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 /* Navigation bar */
 .navbar {
@@ -25,6 +21,10 @@ body {
   font-size: 1.25rem;
 }
 /* Title */
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
 h1 {
   font-weight: 900;
   font-size: 3.5rem;
@@ -34,12 +34,17 @@ h1 {
   margin: 5% 3% 5% 0%;
 }
 .title-image {
-  width: 60%;
+  position: absolute;
+  max-width: 60%;
   transform: rotate(25deg);
 }
+
 /* Features */
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 .features-image {
   font-size: 4.5rem;
@@ -94,3 +99,32 @@ h2 {
 .card-col {
   padding: 2% 2%;
 }
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+  .press-img {
+    width: 25%;
+  }
+}
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 3% 15%;
+}
+/* Footer */
+#footer {
+  padding: 3% 15%;
+  text-align: center;
+}
+.footer-img {
+  padding: 3% 2%;
+  text-decoration: none;
+  color: grey;
+} 
